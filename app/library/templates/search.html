@@ -24,7 +24,7 @@
   </ul>
   <div class="container">
     <div class="row">
-        <div class="col-xs-8 col-xs-offset-2">
+        <div class="col-sm-6 col-xs-offset-2" >
 		    <div class="input-group">
                 <div class="input-group-btn search-panel">
                   <select name="search_param" id="search_param" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
@@ -36,10 +36,10 @@
                 </div>
                 <form method="get" action="{% url 'game_search' %}">
                 <input type="hidden" name="search_param" value="all" id="search_param">
-                <input type="text" class="form-control" name="q" placeholder="Search Games">
+                <input type="text" class="form-control" name="q" placeholder="Search Games...">
                 <span class="input-group-btn">
-                    <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search"></span></button>
-                    </form>
+                  <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                  </form>
                 </span>
             </div>
         </div>
